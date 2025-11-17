@@ -1,57 +1,56 @@
 <!doctype html>
 <html lang="es">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>PROYECTO HTML</title>
-    <link rel="stylesheet" href="ASSETS/DIH.css" />
-
-    <link rel="icon" type="image/png" href="ASSETS/GoaW.webp">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PROYECTO HTML</title>
+  <link rel="stylesheet" href="ASSETS/DIH.css" />
+  <link rel="icon" type="image/png" href="ASSETS/GoaW.webp">
 </head>
 <body>
-    <header>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre">La Lista</a></li>
+        <li><a href="#navbar">Navbar</a></li>
+        <li><a href="#tabla">Tabla</a></li>
+        <li><a href="#formulario">Formulario</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    </header>
+  <main>
+    <section id="inicio">
+      <h1>UN PROYECTU</h1>
+      <p>Este Proyecto es un Proyecto</p>
+      <a href="#sobre">Saber más</a>
+    </section>
 
-    <main>
-        <section id="inicio">
-            <h1>UN PROYECTU</h1>
-            <p>Este Proyecto es un Proyecto</p>
-            <a href="#sobre">Saber más</a>
-        </section>
+    <section id="sobre">
+      <h2>La Lista</h2>
+      <p>Describe aquí el propósito del proyecto.</p>
+    </section>
 
-        <section id="sobre">
-            <h2>La Lista</h2>
-            <p>Describe aquí el propósito del proyecto.</p>
+    <section id="navbar">
+      <h2>Basic HTML code for Navbar</h2>
+      <ul>
+        <li><a href="https://www.image-line.com/">Home</a></li>
+        <li><a href="https://aules.edu.gva.es/">News</a></li>
+        <li><a href="https://www.w3schools.com/">Contact</a></li>
+        <li><a href="https://youtu.be/vfWjnIo_QCo?si=DRWi8ox939sT-XpA">About</a></li>
+      </ul>
+      <p><img src="ASSETS/Dance.webp" alt="">Has Encontrado un Noise</p>
+    </section>
 
-        </section>
-
-        <section>
-
-          <h2>Basic HTML code for Navbar</h2>
-
-<ul>
-  <li><a href="https://www.image-line.com/">Home</a></li>
-  <li><a href="https://aules.edu.gva.es/">News</a></li>
-  <li><a href="https://www.w3schools.com/">Contact</a></li>
-  <li><a href="https://youtu.be/vfWjnIo_QCo?si=DRWi8ox939sT-XpA">About</a></li>
-</ul>
-
-<p>Note: We use href="#" for links. In a real website this would be URLs.</p>
-
-<p><img src="ASSETS/Dance.webp" alt="">Has Encontrado un Noise</p>
-        </section>
-
-
-        <section>
-<!-- MESSA -->
-
-<table>
-  <tr>
-    <th>1</th>
-    <th>2</th>
-    <th>3</th>
-  </tr>
+    <section id="tabla">
+      <h2>Tabla y Formulario</h2>
+      <table>
+        <tr>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+        </tr>
   <tr>
     <td>UNO</td>
     <td>DOS</td>
@@ -82,50 +81,29 @@
     <td>Giovanni Rovelli</td>
     <td>reacting to WTF IS THIS: Sushi Monsters</td>
   </tr>
-</table>
+      </table>
 
-<h2>HTML Forms</h2>
-<!-- Un Form Que No Va -->
-<form action="ASSETS/action_page.php">
-  <label for="fname">¿Cuantos Noises Has Vistos?</label><br>
-  <input type="text" id="fname" name="fname" value=""><br>
-  <label for="lname">¿Por Que Los Has Vistos?</label><br>
-  <input type="text" id="lname" name="lname" value=""><br><br>
-  <input type="submit" value="Submit">
-</form> 
-
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
-
-<section>
-  <ol>OL</ol>
-    <ul>UL</ul>
-    <ul>UL</ul>
-  <ol>OL2</ol>
-    <ul>UL2</ul>
-    <ul>UL2</ul>
-
-
-</section>
-
-
-<p><img src="ASSETS/Noise_panic.webp" alt="">Has Encontrado un Noise</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>© <span id="year"></span> PROYECTO HTML</p>
+      <h2 id="formulario">HTML Forms</h2>
+      <form action="ASSETS/action_page.php">
+        <label for="fname">¿Cuantos Noises Has Visto?</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">¿Por Que Los Has Vistos?</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+    <p><img src="ASSETS/Noise_panic.webp" alt="">Has Encontrado un Noise</p>
         <a href="https://gamebanana.com/wips/95333" target="_blank">NO PROMISES</a>
 
-    </footer>
+  </main>
 
-    <script>
-        // Script mínimo: actualiza el año automáticamente
-        document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
+  <footer>
+    <p>© <span id="year"></span> PROYECTO HTML</p>
+    <img src="ASSETS/Captura de pantalla 2025-11-17 190526.png" alt="">
+  </footer>
 
-
-
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
-
-
 </html>
