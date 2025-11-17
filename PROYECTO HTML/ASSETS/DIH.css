@@ -7,3 +7,308 @@ table {
   width: 100%;
 }
 
+li {
+  color: rgb(4, 0, 255);
+}
+
+th {
+  height: 50px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+img {
+  width: 100px;
+  height: auto;
+}
+
+a {
+  color: red;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:active {
+  color: orange;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+a:focus {
+  outline: 2px solid blue;
+  background-color: yellow;
+  font-style: italic;
+  word-spacing: 4px;
+}
+
+a:visited:hover {
+  color: pink;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+a:visited:focus {
+  background-color: lightgreen;
+  text-decoration: overline;
+  text-transform: lowercase;
+}
+
+a:active:hover {
+  color: red;
+  text-decoration: line-through;
+  text-transform: capitalize;
+}
+
+a:active:focus {
+  background-color: lightblue;
+  text-decoration: blink;
+  text-transform: none;
+}
+
+p {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+body {
+  background-color: #e0e0e0;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #bfb0b0;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+
+header {
+  background-color: #bbb69b;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav {
+  margin: 10px 0;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+section p {
+  line-height: 1.6;
+}
+
+section ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+section ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+section table th, section table td {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: left;
+}
+
+section table th {
+  background-color: #f2f2f2;
+}
+
+section table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+section table tr:hover {
+  background-color: #e0e0e0;
+}
+
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+textarea {
+  height: 100px;
+}
+
+label {
+  font-weight: bold;
+}
+
+label:hover {
+  color: green;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+fieldset legend {
+  font-weight: bold;
+}
+
+fieldset:hover {
+  border-color: blue;
+}
+
+fieldset legend:hover {
+  color: red;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+select:hover {
+  border-color: orange;
+}
+
+option:hover {
+  background-color: #f0f0f0;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+
+::-ms-input-placeholder {
+  color: #888;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
